@@ -1,19 +1,22 @@
 import React from 'react';
-import './App.css';
 import Sidebar from "./Sidebar";
+import Feed from './Feed.js';
+import Widgets from './Widgets.js';
+import './App.css';
 
 function App() {
   return (
     //BEM convention
     <div className="app">
-      <h1>This is a atwitter clone</h1>
 
       {/* Sidebar */}
       <Sidebar />
 
       {/* Feed */}
+      <Feed />
 
       {/* Widgets */}
+      <Widgets />
 
     </div>
   );
